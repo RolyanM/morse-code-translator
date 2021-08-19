@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Morse Code Converter</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Morse Code Converter</h1>
+      <main class="morse-area">
+        <h3>Type what you want to translate below</h3>
+        <textarea type="text" lang="eng" id="messageInput" rows="10" cols="38" placeholder="Type text here"></textarea>
+        <br>
+        <h3>Here is the translation</h3>
+        <textarea id="translation" rows="10" cols="38" placeholder="Translation is here"></textarea>
+        <br>
+        <button class="next" onclick="convertToMorse()" >Translate</button>
+
+      </main>
+      
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
